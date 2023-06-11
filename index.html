@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <h3 id='result'>Let's Play!!</h3>
+  <table>
+    <tr>
+        <button onclick="display('rock')" class="js-images"><img src="images/rock.png"></button>
+        <button onclick="display('paper')" class="js-images"><img src="images/paper.png"></button>
+        <button onclick="display('scissors')" class="js-images"><img src="images/scissors.png"></button>
+    </tr>
+      <tr style="padding: 30px;">
+        <p id="yourVal" class="result-img"></p>
+        <p id="compVal" class="result-img"></p>
+    </tr>
+  </table>
+  <h3 id="count"></h3>
+  <button onclick="clearScore()">Clear Scores</button>
+</body>
+
+</html>

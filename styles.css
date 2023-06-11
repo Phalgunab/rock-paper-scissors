@@ -1,0 +1,19 @@
+.js-images {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0px;
+}
+
+img {
+  border-radius: 4px;
+  width: 90px;
+}
+
+.result-img {
+  border-radius: 4px;
+  width: 30px;
+}
+
+.js-images-on-click{
+  background-color: aqua;
+}
